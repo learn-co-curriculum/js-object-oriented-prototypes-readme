@@ -76,7 +76,7 @@ User.prototype.sayHello = function() {
   console.log(`Hello everybody, my name is ${this.name}`);
 }
 
-var sarah = new User("sarah", "sarah@aol.com");
+let sarah = new User("sarah", "sarah@aol.com");
 
 sarah.sayHello();
 // "Hello everybody, my name is sarah!"
