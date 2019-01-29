@@ -204,7 +204,7 @@ let sarah = new User('sarah', 'sarah@gmail.com');
 
 As you can see, we keep the assignment of properties that point to data inside
 the function. This makes sense, as these pieces of data are different for each
-object. However we move the assignment of properties that point to functions
+object. However, we move the assignment of properties that point to functions
 outside of constructor function and onto the constructor's prototype. This is
 because unlike the properties pointing to data, these methods are identical
 between instances of the same constructor.
